@@ -11,6 +11,7 @@ import EventCreatePage from "./pages/EventCreatePage";
 import EventEditDeletePage from "./pages/EventEditDeletePage";
 import EventDisplaySinglePage from "./pages/EventEditDeletePage";
 import EventDisplayAllPage from "./pages/EventDisplayAllPage";
+import Tour from "./pages/Tour";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/login" element={<LogIn />} />
+          <Route path="/tour" element={<Tour />} />
         </Routes>
       </AuthProviderWrapper>
     </div>
